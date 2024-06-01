@@ -1,10 +1,10 @@
-1-To run the project Create DB table using MYSQL w change the database url, username and password according to your configration (that is in the application properties file)
-2- Also pay attention to the running port in in the application properties file
-Samples of API calls to use direct on postman:-
-GET:  http://localhost:8081/api/books
-GET: http://localhost:8081/api/patron
-POST:  http://localhost:8081/api/books 
-   body: [
+## To run the project Create DB table using MYSQL w change the database url, username and password according to your configration (that is in the application properties file)
+##  Also pay attention to the running port in in the application properties file
+### Samples of API calls to use direct on postman:-
+### GET:  http://localhost:8081/api/books
+### GET: http://localhost:8081/api/patron
+### POST:  http://localhost:8081/api/books 
+###   body: [
     {
         "id": 105,
         "title": "The Great Gatsby",
